@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.fondo {
+    background-image: url('opcion1.jfif');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;  
+}
+
+.circulo {
+    position: absolute;
+    margin-top: -75px;
+    margin-left: -75px;
+    top: 30%;
+    left: 50%;
+    width: 150px;
+    height: 150px;   
+}
+.circulo > .imagen {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;   
+    border: 5px solid #fff;
+}
+
+.texto {
+    font-size: 40px;
+    width: 500px;
+    text-align: center;    
+    vertical-align: 75px;
+    margin-left: -175px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Otomanopee One', sans-serif;
+}
